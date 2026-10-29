@@ -23,4 +23,4 @@ jobs:
       - name: Validar sintaxis
         run: python -m compileall src tests
       - name: Ejecutar pruebas
-        run: pytest -v
+        run: python -m pytest -v
