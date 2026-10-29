@@ -10,6 +10,7 @@ StockGuard clasifica el riesgo de inventario de un producto a partir del stock d
 | stock actual <= 50 % del mínimo | `CRITICO` |
 | stock actual <= mínimo | `BAJO` |
 | cualquier otro caso | `NORMAL` |
+| stock actual > stock máximo | `SOBRESTOCK` |
 
 Los valores negativos y un stock mínimo menor o igual a cero lanzan `ValueError`.
 
